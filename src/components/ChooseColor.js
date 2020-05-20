@@ -5,13 +5,11 @@ class ChooseColor extends Component {
   state = { hidden: true }
 
   onClickButton = () => {
-    console.log('click')
     this.setState({ hidden: !this.state.hidden })
   }
 
   onChangeColor = (color) => {
     this.props.onChangeColor(color.hex)
-    console.log(color.hex)
   }
 
   render() {

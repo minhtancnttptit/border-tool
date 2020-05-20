@@ -41,17 +41,7 @@ class ConfigBorder extends Component {
   ]
 
   render() {
-    const {
-      width,
-      color,
-      style,
-      position,
-      allCorners,
-      topLeft,
-      topRight,
-      bottomRight,
-      bottomLeft,
-    } = this.state
+    const { width, color, style, position } = this.state
 
     return (
       <div className="ui segment">
